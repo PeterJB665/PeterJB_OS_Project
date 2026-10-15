@@ -1,0 +1,4 @@
+DiskA /home/victorvenesect/./diskc.img
+DiskC /home/victorvenesect/./diskc.img 0 63 255 1000
+ROM resource/bios.bin
+VideoROM resource/vgabios.bin
