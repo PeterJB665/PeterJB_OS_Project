@@ -84,9 +84,9 @@ main()
 			char tempCom[80];
 			int i = 0;
 
-			while (command[5 + i] != '\0' && command[5 + i] != '\r' && command[5 + i] != '\n' && (5 + i) < 80)
+			while (command[4 + i] != '\0' && command[4 + i] != '\r' && command[4 + i] != '\n' && (4 + i) < 80)
 			{
-				tempCom[i] = command[5 + i];
+				tempCom[i] = command[4 + i];
 				i++;
 			}
 			tempCom[i] = '\0';
